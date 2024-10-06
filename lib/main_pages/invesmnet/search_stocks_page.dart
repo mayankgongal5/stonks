@@ -17,7 +17,7 @@ class _SearchStocksPageState extends State<SearchStocksPage> {
   DateTime? _startDate;
   DateTime? _endDate;
   List<FlSpot> _chartData = [];
-  final String _apiKey = 'O16WTDNJXpM1zQYHgTk3_n3LDN0AMTxN'; // Replace with your API key
+  final String _apiKey = ''; // Replace with your API key
   final List<Map<String, String>> _trendingStocks = [
     {'symbol': 'NVDA', 'name': 'Nvidia'},
     {'symbol': 'AAPL', 'name': 'Apple'},
